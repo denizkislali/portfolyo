@@ -5,7 +5,7 @@ const firebaseConfig = {
   apiKey: "AIzaSyB9AxBnurA2WMQPA4WCvVb2GuN-ktjt-sY",
   authDomain: "portfolyo-contact.firebaseapp.com",
   projectId: "portfolyo-contact",
-  storageBucket: "portfolyo-contact.appspot.com", // ✔️ düzeltildi
+  storageBucket: "portfolyo-contact.appspot.com", 
   messagingSenderId: "442119071558",
   appId: "1:442119071558:web:f11aa9fbf65e83dd5ea747",
 };

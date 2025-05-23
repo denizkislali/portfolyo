@@ -18,7 +18,7 @@
   padding: 0 1rem;
 }
 
-/* 🔽 Mobil uyum */
+
 @media (max-width: 768px) {
   .about h2 {
     font-size: 2rem;

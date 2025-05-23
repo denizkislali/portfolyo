@@ -22,7 +22,7 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log("🧪 Gönder butonuna basıldı."); // <-- bu satır kritik testtir
+    console.log("🧪 Gönder butonuna basıldı."); 
 
     try {
       const docRef = await addDoc(collection(db, "messages"), {

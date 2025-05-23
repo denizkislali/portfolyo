@@ -32,7 +32,7 @@
   color: #00b894;
 }
 
-/* 🔽 Mobil uyum */
+
 @media (max-width: 768px) {
   .skills h2 {
     font-size: 2rem;

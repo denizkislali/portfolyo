@@ -5,8 +5,8 @@ import FadeInSection from "./FadeInSection";
 const Home = () => {
   const texts = ["Merhaba, ben Ece", "Bilgisayar Mühendisliği öğrencisiyim"];
   const [text, setText] = useState("");
-  const [index, setIndex] = useState(0);         // texts dizisindeki aktif cümle
-  const [charIndex, setCharIndex] = useState(0); // harf sırası
+  const [index, setIndex] = useState(0);         
+  const [charIndex, setCharIndex] = useState(0); 
   const [isDeleting, setIsDeleting] = useState(false);
 
   useEffect(() => {
@@ -26,12 +26,10 @@ const Home = () => {
     }
 
     if (!isDeleting && charIndex === current.length) {
-      // yazma tamamlandı → silmeye hazırlan
       timeout = setTimeout(() => setIsDeleting(true), 100);
     }
 
     if (isDeleting && charIndex === 0) {
-      // silme tamamlandı → sıradaki cümleye geç
       setIsDeleting(false);
       setIndex((prev) => (prev + 1) % texts.length);
     }

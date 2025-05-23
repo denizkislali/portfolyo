@@ -1,4 +1,4 @@
-// src/context/ThemeContext.jsx
+
 
 import { createContext, useState, useEffect } from "react";
 

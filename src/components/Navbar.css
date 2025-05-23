@@ -51,7 +51,7 @@
   margin-left: 1rem;
 }
 
-/* Hamburger butonu */
+
 .hamburger {
   background: none;
   border: none;
@@ -61,7 +61,7 @@
   cursor: pointer;
 }
 
-/* Mobil görünüm */
+
 @media (max-width: 768px) {
   .hamburger {
     display: block;

@@ -63,7 +63,6 @@ button:hover {
   font-size: 1.2rem;
 }
 
-/* 🔽 Mobil uyum */
 @media (max-width: 768px) {
   .contact h2 {
     font-size: 2rem;

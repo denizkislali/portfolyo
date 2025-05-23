@@ -1,6 +1,6 @@
 import React from 'react';
 import './Skills.css';
-import FadeInSection from './FadeInSection'; // ekledik
+import FadeInSection from './FadeInSection'; 
 
 const Skills = () => {
   return (
