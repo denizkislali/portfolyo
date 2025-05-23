@@ -9,7 +9,7 @@ const Portfolio = () => {
       description:
         "React ve Firebase kullanılarak geliştirilmiş tam işlevli kişisel blog sitesi. Markdown desteği, yorum sistemi ve admin paneli içerir.",
       tags: ["React", "Firebase", "CSS3", "Markdown"],
-      demoLink: "https://blog-demo.com",
+      demoLink: "https://github.com/denizkislali/portfolyo",
     },
     {
       title: "Mini ATM",
