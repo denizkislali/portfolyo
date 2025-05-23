@@ -50,7 +50,7 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   className="project-link"
                 >
-                  <i className="bi bi-eye"></i> Demo
+                  <i className="bi bi-eye"></i> Repository
                 </a>
               </div>
             </div>
